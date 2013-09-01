@@ -54,7 +54,6 @@ ${fs_bar /media/2232CF2E32CF05AF}
 
 ${font sans-serif:bold:size=8}NETWORK ${hr 2}
 ${font sans-serif:normal:size=8}IP WiFi: $alignr ${addrs wlan0}
-IP Cat5: $alignr ${addrs eth0}
 ${downspeedgraph wlan0 F57900 FCAF3E}
 Incoming: ${downspeed wlan0}/s $alignr total: ${totaldown wlan0}
 ${upspeedgraph wlan0 F57900 FCAF3E}
