@@ -1,1 +1,1 @@
-![Alt text](https://raw.github.com/windelicato/dotfiles/master/screenshot.png "SPRING")
+![Alt text](https://raw.github.com/y2k32bits/dotfiles/master/conky.png "SPRING")
