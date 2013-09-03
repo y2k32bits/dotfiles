@@ -47,10 +47,10 @@ ${font sans-serif:normal:size=8}RAM $alignc $mem / $memmax $alignr $memperc%
 $membar
 
 ${font sans-serif:bold:size=8}DISKS ${hr 2}
-${font sans-serif:normal:size=8}/ssd $alignc ${fs_used /} / ${fs_size /} $alignr ${fs_used_perc /}%
+${font sans-serif:normal:size=8}/ $alignc ${fs_used /} / ${fs_size /} $alignr ${fs_used_perc /}%
 ${fs_bar /}
-${font sans-serif:normal:size=8}/hd1 $alignc ${fs_used /media/2232CF2E32CF05AF} / ${fs_size /media/2232CF2E32CF05AF} $alignr ${fs_used_perc /media/2232CF2E32CF05AF}%
-${fs_bar /media/2232CF2E32CF05AF}
+${font sans-serif:normal:size=8}/home $alignc ${fs_used /home/yugorails} / ${fs_size /home/yugorails} $alignr ${fs_used_perc /home/yugorails}%
+${fs_bar /home/yugorails}
 
 ${font sans-serif:bold:size=8}NETWORK ${hr 2}
 ${font sans-serif:normal:size=8}IP WiFi: $alignr ${addrs wlan0}
